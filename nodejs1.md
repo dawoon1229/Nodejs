@@ -158,7 +158,7 @@ app.use(express.static(__dirname + '/public')) // public은 서버에 있는 폴
 
 - 서버에서 HTML파일을 동적으로 생성하기 위해 (순수하게 문자열을 조합하여 HTML을 만들어 보내줄 수 있지만 깔끔한 코드와 효율성을 위해...) 템플릿 엔진을 사용한다.
 - 참고: https://expressjs.com/ko/guide/using-template-engines.html
-- expressjs.com 예시는 pug가 사용되었으나, 본 강의에서는 [EJS를 사용하기로 한다.](https://ejs.co/)
+- expressjs.com 예시는 pug가 사용되었으나, 여기에서는는 [EJS를 사용하기로 한다.](https://ejs.co/)
 
 ### **EJS 설치하기**
 
